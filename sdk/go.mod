@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-xyz/sdk
+module github.com/voidrot/pulumi-opnsense-native/sdk
 
 go 1.21
 

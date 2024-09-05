@@ -1,10 +1,10 @@
-PROJECT_NAME := Pulumi Xyz Resource Provider
+PROJECT_NAME := Pulumi opnsense Resource Provider
 
-PACK             := xyz
+PACK             := opnsense
 PACKDIR          := sdk
-PROJECT          := github.com/pulumi/pulumi-xyz
-NODE_MODULE_NAME := @abc/xyz
-NUGET_PKG_NAME   := Abc.Xyz
+PROJECT          := github.com/voidrot/pulumi-opnsense-native
+NODE_MODULE_NAME := @voidrot/opnsense
+NUGET_PKG_NAME   := voidrot.opnsense
 
 PROVIDER        := pulumi-resource-${PACK}
 VERSION         ?= $(shell pulumictl get version)

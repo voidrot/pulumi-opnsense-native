@@ -1,0 +1,9 @@
+{
+    "makefile.configureOnOpen": false,
+    "cSpell.words": [
+        "goprovider",
+        "Infof",
+        "opnsense",
+        "pulumi"
+    ]
+}

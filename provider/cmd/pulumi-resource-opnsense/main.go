@@ -17,8 +17,9 @@ package main
 import (
 	p "github.com/pulumi/pulumi-go-provider"
 
-	xyz "github.com/pulumi/pulumi-xyz/provider"
+	opnsense "github.com/voidrot/pulumi-opnsense-native/provider"
+	version "github.com/voidrot/pulumi-opnsense-native/provider/pkg/version"
 )
 
 // Serve the provider against Pulumi's Provider protocol.
-func main() { p.RunProvider(xyz.Name, xyz.Version, xyz.Provider()) }
+func main() { p.RunProvider(opnsense.Name, version.Version, opnsense.Provider()) }
